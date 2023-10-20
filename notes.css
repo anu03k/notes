@@ -1,0 +1,99 @@
+* {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+body {
+    /* background-color: #aa6f73ad; */
+    background-color: rgb(246, 224, 181);
+}
+
+.CreateNote {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.689);
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(252, 241, 241);
+    border: none;
+    border-radius: 5px;
+}
+
+.CreateNote:hover {
+    padding: 12px;
+    color: rgb(255, 253, 127);
+}
+
+.main-container {
+    width: 95%;
+    margin: auto;
+}
+
+.container1 {
+    margin-left: 5%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.container3 {
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea {
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    height: 200px;
+    width: 200px;
+    padding: 40px 25px 25px 25px;
+    font-size: 1.2rem;
+}
+
+span {
+    height: 20x;
+}
+
+
+/* .btn {
+    position: absolute;
+    top: 4%;
+    height: 19px;
+} */
+
+#check {
+    cursor: pointer;
+    height: 20px;
+    width: 15px;
+    padding-left: 30px;
+    position: absolute;
+    right: 17%;
+    top: 1%;
+    font-weight: bolder;
+}
+
+#check:hover {
+    color: #330bd4;
+    /* padding-bottom: 4px;   since fixed height it doesnt hover */
+}
+
+#cross {
+    cursor: pointer;
+    height: 20px;
+    width: 10px;
+    padding-left: 30px;
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    font-weight: bolder;
+}
+
+#cross:hover {
+    color: #330bd4;
+}
